@@ -1,9 +1,26 @@
-style {
-    img {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 5px solid #000;
-    }
+
+.circle-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
 }
+.icon-link {
+    width: 30px;
+    height: 30px;
+}
+body {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to right, #2196F3 , #0D47A1 );
+
+}
+.flex {
+    display: flex;
+    
+}
+h1, p, h3, li, ul, ol{
+    color: #E3F2FD;
+}
+
